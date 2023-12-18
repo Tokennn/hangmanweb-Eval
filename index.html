@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen intermédiaire - Hangman Web</title>
+</head>
+
+<body>
+
+  <div id="todo-container">
+    <div id="todo-header">
+      <h2>To-Do List</h2>
+    </div>
+    <div id="todo-list">
+      <div class="task">
+        <div class="task-name">Name:
+        </div>
+        <div class="task-date">Date:
+        </div>
+        <div class="task-description">Description:<br>
+        </div>
+        <div class="task-status">Status :
+        </div>
+        <form id="delete-task" action="" method="post">
+          <button class="delete-btn">Delete</button>
+        </form>
+      </div>
+    </div>
+    <form id="add-task" action="" method="post">
+      <input class="add-task-name" type="text" name="name" placeholder="Name">
+      <input class="add-task-date" type="date" name="date">
+      <input class="add-task-description" type="text" name="description" placeholder="Description">
+      <input class="add-task-state" type="text" name="state" placeholder="State">
+      <button id="add-btn">Add Task</button>
+    </form>
+  </div>
+</body>
+
+</html>
